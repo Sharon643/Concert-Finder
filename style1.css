@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.srch{
+    width: 100%;
+    min-height: 100vh;
+    padding: 5%;
+    background-image: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+  }
+  form{
+    background: #fff;
+    width: 600px;
+    height: 55px;
+    display: flex;
+  }
+form input{
+  flex: 1;
+  border: none;
+  outline: none;
+}
+form button{
+  background: red;
+  padding: 10px 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+form .fa-magnifying-glass{
+  align-self: center;
+  padding: 10px 20px;
+  color: #777;
+  
+}
